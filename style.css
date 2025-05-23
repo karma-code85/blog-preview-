@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;  
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "figtree";
+    background-color: hsl(47, 88%, 63%); 
+}
+.container{
+     display: flex;
+    flex-direction: column;
+    gap: 10px;
+   background-color: hsl(0, 0%, 100%);
+   padding: 15px;
+   margin:40px;
+   border-radius: 15px;
+   border: 1px solid black;
+   box-shadow: 7px 7px 0  black;
+   width: 100%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+img{
+    border-radius: 15px;
+    width: 100%;  
+}
+span{
+   display: inline;
+   align-self: center;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 10px;
+    color: hsl(0, 0%, 7%);  
+ 
+}
+h1{
+ font-size: 18px;
+ font-weight: bold;
+}
+h2{
+    font-size: 12px;
+}
+
+.icon{
+    display: flex;
+    text-align: center;
+    text-transform: capitalize;
+    gap: 10px;
+   font-size: 13px;
+   align-items: center;
+  
+   
+}
+.icon img{
+    width: 30px;
+    height: 30px;
+}
+p{
+    color: hsl(0, 0%, 42%);
+    font-size: 12px;
+   
+}
+@media screen and(min-width:768 ) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "figtree";
+        background-color: hsl(47, 88%, 63%);
+
+    }
+
+}
