@@ -23,6 +23,17 @@ body{
    box-shadow: 7px 7px 0  black;
    width: 80%;
 }
+.content>p{
+    line-height: 21px;
+}
+.lon{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.lon>p{
+    color: black;
+}
 .content{
     display: flex;
     flex-direction: column;
@@ -71,19 +82,43 @@ h1{
     width: 30px;
     height: 30px;
 }
+.icon>h2{
+    font-size: 15px;
+}
 p{
     color: hsl(0, 0%, 42%);
     font-size: 12px;
    
 }
-@media screen and(min-width:768 ) {
+@media screen and (min-width: 768px) {
     body{
         display: flex;
         justify-content: center;
         align-items: center;
         font-family: "figtree";
         background-color: hsl(47, 88%, 63%);
+        
 
     }
+    .container{
+        display: flex;
+        width:40%;
+       
+      
+        
+        margin: auto;
+        
 
-}
+        
+    }
+    .pic{
+        width: 100%;
+    }
+    p{
+        font-size: 16px;
+    }
+    
+} 
+    
+
+
